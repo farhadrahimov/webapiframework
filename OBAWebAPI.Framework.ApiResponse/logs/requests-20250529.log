@@ -1,0 +1,66 @@
+2025-05-29 16:39:02.864 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-29 16:39:03.004 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-29 16:39:03.004 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-29 16:39:03.078 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-29 16:39:03.078 +04:00 [INF] Hosting environment: Development
+2025-05-29 16:39:03.078 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-29 16:39:03.516 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-29 16:39:03.704 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 195.156ms
+2025-05-29 16:39:03.710 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-29 16:39:03.710 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-29 16:39:03.717 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 6.9346ms
+2025-05-29 16:39:03.780 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.5087ms
+2025-05-29 16:39:03.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-29 16:39:03.916 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.3367ms
+2025-05-29 16:39:52.061 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-29 16:39:52.328 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-29 16:39:52.329 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-29 16:39:52.442 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-29 16:39:52.443 +04:00 [INF] Hosting environment: Development
+2025-05-29 16:39:52.443 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-29 16:39:55.476 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-29 16:39:55.631 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 163.4121ms
+2025-05-29 16:39:55.640 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-29 16:39:55.640 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-29 16:39:55.680 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 12.5111ms
+2025-05-29 16:39:55.703 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.1835ms
+2025-05-29 16:39:55.751 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-29 16:39:55.828 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.8248ms
+2025-05-29 17:03:17.361 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=2 - null null
+2025-05-29 17:03:17.473 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=2","HasValue":true},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-29 17:03:17.475 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-29 17:03:17.498 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-29 17:03:17.785 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal[]'.
+2025-05-29 17:03:17.791 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 290.2709ms
+2025-05-29 17:03:17.791 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-29 17:03:17.794 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=2 - 200 null application/json; charset=utf-8 434.1003ms
+2025-05-29 17:04:03.895 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - null null
+2025-05-29 17:04:03.908 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=0","HasValue":true},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-29 17:04:03.909 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-29 17:04:03.909 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-29 17:04:04.004 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 95.0011ms
+2025-05-29 17:04:04.005 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-29 17:04:04.101 +04:00 [ERR] An unhandled error occurred: Attempted to divide by zero.
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at OBAWebAPI.Framework.Service.Services.ExampleService.<>c__DisplayClass3_0.<GetDecreaseGraduate>b__0(Decimal item) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 32
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OBAWebAPI.Framework.Service.Services.ExampleService.GetDecreaseGraduate(Int32 value) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 32
+   at OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate(Int32 value) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Controllers\ExampleController.cs:line 26
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Infrastructure\Middlewares\LoggingMiddleware.cs:line 23
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Infrastructure\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-05-29 17:04:04.143 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - 500 null application/json; charset=utf-8 249.2745ms

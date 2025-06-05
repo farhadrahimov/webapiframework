@@ -1,0 +1,731 @@
+2025-05-30 11:17:06.698 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 11:17:06.872 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 11:17:06.873 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 11:17:06.957 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 11:17:06.958 +04:00 [INF] Hosting environment: Development
+2025-05-30 11:17:06.958 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 11:17:07.846 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 11:17:08.086 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 247.3192ms
+2025-05-30 11:17:08.095 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 11:17:08.095 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 11:17:08.134 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 7.4328ms
+2025-05-30 11:17:08.202 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.8186ms
+2025-05-30 11:17:08.264 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 11:17:08.355 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.1133ms
+2025-05-30 11:17:24.403 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=2 - null null
+2025-05-30 11:17:24.486 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=2","HasValue":true},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 11:17:24.488 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 11:17:24.512 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 11:17:25.009 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal[]'.
+2025-05-30 11:17:25.015 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 501.0956ms
+2025-05-30 11:17:25.016 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 11:17:25.018 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=2 - 200 null application/json; charset=utf-8 614.9249ms
+2025-05-30 11:19:07.777 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 11:19:07.912 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 11:19:07.912 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 11:19:07.988 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 11:19:07.989 +04:00 [INF] Hosting environment: Development
+2025-05-30 11:19:07.989 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 11:19:08.380 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 11:19:08.543 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 168.7873ms
+2025-05-30 11:19:08.556 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 11:19:08.556 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 11:19:08.563 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 6.5802ms
+2025-05-30 11:19:08.620 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.6141ms
+2025-05-30 11:19:08.670 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 11:19:08.733 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.2706ms
+2025-05-30 11:21:18.474 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 11:21:18.612 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 11:21:18.613 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 11:21:18.689 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 11:21:18.689 +04:00 [INF] Hosting environment: Development
+2025-05-30 11:21:18.689 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 11:21:19.034 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 11:21:19.187 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 159.5391ms
+2025-05-30 11:21:19.191 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 11:21:19.191 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 11:21:19.197 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 5.4164ms
+2025-05-30 11:21:19.247 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.6228ms
+2025-05-30 11:21:19.290 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 11:21:19.353 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.6707ms
+2025-05-30 11:28:21.171 +04:00 [INF] VersionMigration migrating
+2025-05-30 11:28:21.197 +04:00 [INF] Beginning Transaction
+2025-05-30 11:28:21.200 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 11:28:21.212 +04:00 [INF] CreateTable VersionInfo
+2025-05-30 11:28:21.217 +04:00 [INF] CREATE TABLE [dbo].[VersionInfo] ([Version] BIGINT NOT NULL)
+2025-05-30 11:28:21.240 +04:00 [INF] => 0.0239316s
+2025-05-30 11:28:21.240 +04:00 [INF] Committing Transaction
+2025-05-30 11:28:21.242 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 11:28:21.242 +04:00 [INF] VersionMigration migrated
+2025-05-30 11:28:21.242 +04:00 [INF] => 0.029688s
+2025-05-30 11:28:21.256 +04:00 [INF] VersionUniqueMigration migrating
+2025-05-30 11:28:21.256 +04:00 [INF] Beginning Transaction
+2025-05-30 11:28:21.256 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 11:28:21.261 +04:00 [INF] CreateIndex VersionInfo (Version)
+2025-05-30 11:28:21.263 +04:00 [INF] CREATE UNIQUE CLUSTERED INDEX [UC_Version] ON [dbo].[VersionInfo] ([Version] ASC)
+2025-05-30 11:28:21.271 +04:00 [INF] => 0.0093945s
+2025-05-30 11:28:21.271 +04:00 [INF] AlterTable VersionInfo
+2025-05-30 11:28:21.271 +04:00 [INF] 
+2025-05-30 11:28:21.271 +04:00 [INF] => 0.0004253s
+2025-05-30 11:28:21.271 +04:00 [INF] CreateColumn VersionInfo AppliedOn DateTime
+2025-05-30 11:28:21.272 +04:00 [INF] ALTER TABLE [dbo].[VersionInfo] ADD [AppliedOn] DATETIME
+2025-05-30 11:28:21.283 +04:00 [INF] => 0.0109345s
+2025-05-30 11:28:21.283 +04:00 [INF] Committing Transaction
+2025-05-30 11:28:21.283 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 11:28:21.283 +04:00 [INF] VersionUniqueMigration migrated
+2025-05-30 11:28:21.283 +04:00 [INF] => 0.0116831s
+2025-05-30 11:28:21.294 +04:00 [INF] VersionDescriptionMigration migrating
+2025-05-30 11:28:21.294 +04:00 [INF] Beginning Transaction
+2025-05-30 11:28:21.294 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 11:28:21.295 +04:00 [INF] AlterTable VersionInfo
+2025-05-30 11:28:21.295 +04:00 [INF] 
+2025-05-30 11:28:21.295 +04:00 [INF] => 6.22E-05s
+2025-05-30 11:28:21.295 +04:00 [INF] CreateColumn VersionInfo Description String
+2025-05-30 11:28:21.296 +04:00 [INF] ALTER TABLE [dbo].[VersionInfo] ADD [Description] NVARCHAR(1024)
+2025-05-30 11:28:21.297 +04:00 [INF] => 0.0013358s
+2025-05-30 11:28:21.297 +04:00 [INF] Committing Transaction
+2025-05-30 11:28:21.297 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 11:28:21.297 +04:00 [INF] VersionDescriptionMigration migrated
+2025-05-30 11:28:21.297 +04:00 [INF] => 0.0018047s
+2025-05-30 11:28:21.312 +04:00 [INF] 2: CreateExampleMigration_30052025 migrating
+2025-05-30 11:28:21.312 +04:00 [INF] Beginning Transaction
+2025-05-30 11:28:21.312 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 11:28:21.312 +04:00 [INF] CreateTable Test1
+2025-05-30 11:28:21.313 +04:00 [INF] CREATE TABLE [dbo].[Test1] ([Id] UNIQUEIDENTIFIER NOT NULL, [Name] NVARCHAR(50) NOT NULL, CONSTRAINT [PK_Test1] PRIMARY KEY ([Id]))
+2025-05-30 11:28:21.314 +04:00 [INF] => 0.0013742s
+2025-05-30 11:28:21.316 +04:00 [INF] INSERT INTO [dbo].[VersionInfo] ([Version], [AppliedOn], [Description]) VALUES (2, GETUTCDATE(), N'CreateExampleMigration_30052025')
+2025-05-30 11:28:21.319 +04:00 [INF] Committing Transaction
+2025-05-30 11:28:21.319 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 11:28:21.319 +04:00 [INF] 2: CreateExampleMigration_30052025 migrated
+2025-05-30 11:28:21.319 +04:00 [INF] => 0.0065792s
+2025-05-30 11:28:21.497 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 11:28:21.599 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 11:28:21.599 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 11:28:21.674 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 11:28:21.674 +04:00 [INF] Hosting environment: Development
+2025-05-30 11:28:21.674 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 11:28:22.003 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 11:28:22.145 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 147.881ms
+2025-05-30 11:28:22.149 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 11:28:22.149 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 11:28:22.155 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 5.4151ms
+2025-05-30 11:28:22.184 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.1746ms
+2025-05-30 11:28:22.243 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 11:28:22.298 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.2649ms
+2025-05-30 11:29:08.538 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 11:29:08.667 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 11:29:08.667 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 11:29:08.753 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 11:29:08.754 +04:00 [INF] Hosting environment: Development
+2025-05-30 11:29:08.754 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 11:29:08.844 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 11:29:08.983 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 144.7626ms
+2025-05-30 11:29:08.988 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 11:29:08.988 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 11:29:08.992 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 4.6213ms
+2025-05-30 11:29:09.021 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.3507ms
+2025-05-30 11:29:09.077 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 11:29:09.129 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.7682ms
+2025-05-30 11:29:32.441 +04:00 [INF] 3: CreateExampleMigration_30052025 migrating
+2025-05-30 11:29:32.465 +04:00 [INF] Beginning Transaction
+2025-05-30 11:29:32.468 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 11:29:32.481 +04:00 [INF] CreateTable Test1
+2025-05-30 11:29:32.486 +04:00 [INF] CREATE TABLE [dbo].[Test1] ([Id] UNIQUEIDENTIFIER NOT NULL, [Name] NVARCHAR(50) NOT NULL, CONSTRAINT [PK_Test1] PRIMARY KEY ([Id]))
+2025-05-30 11:29:32.505 +04:00 [INF] => 0.0210221s
+2025-05-30 11:29:32.507 +04:00 [INF] INSERT INTO [dbo].[VersionInfo] ([Version], [AppliedOn], [Description]) VALUES (3, GETUTCDATE(), N'CreateExampleMigration_30052025')
+2025-05-30 11:29:32.508 +04:00 [INF] Committing Transaction
+2025-05-30 11:29:32.512 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 11:29:32.512 +04:00 [INF] 3: CreateExampleMigration_30052025 migrated
+2025-05-30 11:29:32.512 +04:00 [INF] => 0.030926s
+2025-05-30 11:29:32.679 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 11:29:32.784 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 11:29:32.784 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 11:29:32.869 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 11:29:32.869 +04:00 [INF] Hosting environment: Development
+2025-05-30 11:29:32.869 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 11:29:33.031 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 11:29:33.175 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 150.7862ms
+2025-05-30 11:29:33.181 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 11:29:33.181 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 11:29:33.186 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 5.4189ms
+2025-05-30 11:29:33.214 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4066ms
+2025-05-30 11:29:33.269 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 11:29:33.327 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.5535ms
+2025-05-30 12:11:34.654 +04:00 [INF] 1: CreateExampleMigration_30052025 migrating
+2025-05-30 12:11:34.681 +04:00 [INF] Beginning Transaction
+2025-05-30 12:11:34.684 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 12:11:34.697 +04:00 [INF] CreateTable ExampleTable
+2025-05-30 12:11:34.702 +04:00 [INF] CREATE TABLE [dbo].[ExampleTable] ([Id] UNIQUEIDENTIFIER NOT NULL DEFAULT newId(), [Name] NVARCHAR(MAX) NOT NULL, CONSTRAINT [PK_ExampleTable] PRIMARY KEY ([Id]))
+2025-05-30 12:11:34.722 +04:00 [INF] => 0.0223447s
+2025-05-30 12:11:34.724 +04:00 [INF] INSERT INTO [dbo].[VersionInfo] ([Version], [AppliedOn], [Description]) VALUES (1, GETUTCDATE(), N'CreateExampleMigration_30052025')
+2025-05-30 12:11:34.726 +04:00 [INF] Committing Transaction
+2025-05-30 12:11:34.728 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 12:11:34.728 +04:00 [INF] 1: CreateExampleMigration_30052025 migrated
+2025-05-30 12:11:34.728 +04:00 [INF] => 0.0314153s
+2025-05-30 12:11:34.941 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 12:11:35.042 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 12:11:35.042 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 12:11:35.116 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 12:11:35.117 +04:00 [INF] Hosting environment: Development
+2025-05-30 12:11:35.117 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 12:11:36.089 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 12:11:36.271 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 188.7995ms
+2025-05-30 12:11:36.279 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 12:11:36.279 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 12:11:36.285 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 6.8122ms
+2025-05-30 12:11:36.313 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.4711ms
+2025-05-30 12:11:36.375 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 12:11:36.445 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.1487ms
+2025-05-30 12:13:18.923 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 12:13:19.071 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 12:13:19.072 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 12:13:19.149 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 12:13:19.149 +04:00 [INF] Hosting environment: Development
+2025-05-30 12:13:19.149 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 12:13:20.196 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 12:13:20.363 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 174.6632ms
+2025-05-30 12:13:20.376 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 12:13:20.376 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 12:13:20.381 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 5.3124ms
+2025-05-30 12:13:20.419 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.5737ms
+2025-05-30 12:13:20.472 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 12:13:20.543 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.4854ms
+2025-05-30 12:13:49.967 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 12:13:50.044 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 12:13:50.046 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:13:50.064 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 12:13:59.276 +04:00 [ERR] Failed executing DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleDb] AS [e]
+2025-05-30 12:13:59.303 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'OBAWebAPI.Framework.Repository.Infrastructure.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ExampleDb'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13f60169-c920-4ccc-82fe-6f0481ae9066
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ExampleDb'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13f60169-c920-4ccc-82fe-6f0481ae9066
+Error Number:208,State:1,Class:16
+2025-05-30 12:13:59.467 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 9399.6481ms
+2025-05-30 12:13:59.469 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:13:59.587 +04:00 [ERR] An unhandled error occurred: Invalid object name 'ExampleDb'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ExampleDb'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at OBAWebAPI.Framework.Repository.Repositories.ExampleRepository.GetData() in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Repository\Repositories\ExampleRepository.cs:line 40
+   at OBAWebAPI.Framework.Service.Services.ExampleService.GetData() in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 31
+   at OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData() in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Controllers\ExampleController.cs:line 37
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Infrastructure\Middlewares\LoggingMiddleware.cs:line 23
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Infrastructure\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+ClientConnectionId:13f60169-c920-4ccc-82fe-6f0481ae9066
+Error Number:208,State:1,Class:16
+2025-05-30 12:13:59.626 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 500 null application/json; charset=utf-8 9658.8685ms
+2025-05-30 12:14:31.987 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 12:14:32.001 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 13.2459ms
+2025-05-30 12:14:32.008 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 12:14:32.008 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 12:14:32.008 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 1.3432ms
+2025-05-30 12:14:32.024 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.1868ms
+2025-05-30 12:14:32.060 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 12:14:32.064 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.4685ms
+2025-05-30 12:14:38.964 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 12:14:43.624 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 12:14:43.624 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:14:43.627 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 12:14:50.107 +04:00 [ERR] Failed executing DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleDb] AS [e]
+2025-05-30 12:14:50.108 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'OBAWebAPI.Framework.Repository.Infrastructure.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ExampleDb'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13f60169-c920-4ccc-82fe-6f0481ae9066
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ExampleDb'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13f60169-c920-4ccc-82fe-6f0481ae9066
+Error Number:208,State:1,Class:16
+2025-05-30 12:15:46.784 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 12:15:46.915 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 12:15:46.916 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 12:15:46.996 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 12:15:46.996 +04:00 [INF] Hosting environment: Development
+2025-05-30 12:15:46.996 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 12:15:47.530 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 12:15:47.670 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 145.281ms
+2025-05-30 12:15:47.675 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 12:15:47.675 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 12:15:47.679 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 4.8961ms
+2025-05-30 12:15:47.714 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.4921ms
+2025-05-30 12:15:47.775 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 12:15:47.854 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.5523ms
+2025-05-30 12:15:53.556 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 12:15:53.631 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 12:15:53.632 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:15:53.647 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 12:15:59.616 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 12:15:59.655 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'OBAWebAPI.Framework.Repository.Infrastructure.AppDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.Int32'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Guid' to type 'System.Int32'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-30 12:18:14.574 +04:00 [INF] 1: CreateExampleMigration_30052025 migrating
+2025-05-30 12:18:14.599 +04:00 [INF] Beginning Transaction
+2025-05-30 12:18:14.602 +04:00 [INF] BEGIN TRANSACTION
+2025-05-30 12:18:14.616 +04:00 [INF] CreateTable ExampleTable
+2025-05-30 12:18:14.622 +04:00 [INF] CREATE TABLE [dbo].[ExampleTable] ([Id] BIGINT NOT NULL IDENTITY(1,1), [Name] NVARCHAR(MAX) NOT NULL, CONSTRAINT [PK_ExampleTable] PRIMARY KEY ([Id]))
+2025-05-30 12:18:14.641 +04:00 [INF] => 0.0217923s
+2025-05-30 12:18:14.642 +04:00 [INF] CreateIndex ExampleTable (Id)
+2025-05-30 12:18:14.644 +04:00 [INF] CREATE UNIQUE INDEX [IX_ExampleTable_Id] ON [dbo].[ExampleTable] ([Id] ASC)
+2025-05-30 12:18:14.645 +04:00 [INF] => 0.002823s
+2025-05-30 12:18:14.647 +04:00 [INF] INSERT INTO [dbo].[VersionInfo] ([Version], [AppliedOn], [Description]) VALUES (1, GETUTCDATE(), N'CreateExampleMigration_30052025')
+2025-05-30 12:18:14.648 +04:00 [INF] Committing Transaction
+2025-05-30 12:18:14.651 +04:00 [INF] COMMIT TRANSACTION
+2025-05-30 12:18:14.651 +04:00 [INF] 1: CreateExampleMigration_30052025 migrated
+2025-05-30 12:18:14.651 +04:00 [INF] => 0.0086522s
+2025-05-30 12:18:14.851 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 12:18:14.962 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 12:18:14.962 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 12:18:15.039 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 12:18:15.039 +04:00 [INF] Hosting environment: Development
+2025-05-30 12:18:15.039 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 12:18:15.578 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 12:18:15.717 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 145.0876ms
+2025-05-30 12:18:15.722 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 12:18:15.722 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 12:18:15.727 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 4.6812ms
+2025-05-30 12:18:15.752 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.9405ms
+2025-05-30 12:18:15.811 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 12:18:15.873 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.9473ms
+2025-05-30 12:18:50.074 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 12:18:50.163 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 12:18:50.165 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:18:50.179 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 12:18:55.046 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 12:18:55.073 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'OBAWebAPI.Framework.Repository.Infrastructure.AppDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-30 12:23:07.662 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 12:23:07.794 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 12:23:07.794 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 12:23:07.872 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 12:23:07.873 +04:00 [INF] Hosting environment: Development
+2025-05-30 12:23:07.873 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 12:23:08.261 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 12:23:08.397 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 140.6532ms
+2025-05-30 12:23:08.402 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 12:23:08.402 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 12:23:08.411 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 9.5623ms
+2025-05-30 12:23:08.438 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.9256ms
+2025-05-30 12:23:08.492 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 12:23:08.554 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.2796ms
+2025-05-30 12:23:13.167 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 12:23:13.247 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 12:23:13.249 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:23:13.264 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 12:23:21.042 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 12:23:25.481 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[OBAWebAPI.Framework.Domain.Models.ExampleModel, OBAWebAPI.Framework.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 12:23:25.492 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 12223.4435ms
+2025-05-30 12:23:25.492 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 12:23:25.499 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 200 null application/json; charset=utf-8 12331.8052ms
+2025-05-30 14:10:38.478 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 14:10:38.612 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 14:10:38.612 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 14:10:38.690 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 14:10:38.690 +04:00 [INF] Hosting environment: Development
+2025-05-30 14:10:38.690 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 14:10:39.253 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 14:10:39.458 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 219.7004ms
+2025-05-30 14:10:39.489 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 14:10:39.489 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 14:10:39.495 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 6.3466ms
+2025-05-30 14:10:39.528 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.3779ms
+2025-05-30 14:10:39.593 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 14:10:39.663 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.13ms
+2025-05-30 14:10:54.318 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 14:10:54.391 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 14:10:54.392 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 14:10:54.408 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 14:10:59.805 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 14:10:59.852 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[OBAWebAPI.Framework.Domain.Models.ExampleModel, OBAWebAPI.Framework.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 14:10:59.862 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 5451.9008ms
+2025-05-30 14:10:59.863 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 14:10:59.869 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 200 null application/json; charset=utf-8 5551.678ms
+2025-05-30 14:11:15.754 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=3 - null null
+2025-05-30 14:11:15.757 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=3","HasValue":true},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 14:11:15.757 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 14:11:15.766 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 14:11:15.825 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal[]'.
+2025-05-30 14:11:15.828 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 61.7538ms
+2025-05-30 14:11:15.828 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 14:11:15.828 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=3 - 200 null application/json; charset=utf-8 74.8824ms
+2025-05-30 14:11:23.777 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - null null
+2025-05-30 14:11:23.779 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=0","HasValue":true},"Origin":"","Body":"","UserId":null,"Username":null}
+2025-05-30 14:11:23.779 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 14:11:23.779 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 14:11:23.880 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 101.2031ms
+2025-05-30 14:11:23.881 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 14:11:23.977 +04:00 [ERR] An unhandled error occurred: Attempted to divide by zero.
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at OBAWebAPI.Framework.Service.Services.ExampleService.<>c__DisplayClass4_0.<GetDecreaseGraduate>b__0(Decimal item) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 40
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OBAWebAPI.Framework.Service.Services.ExampleService.GetDecreaseGraduate(Int32 value) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 40
+   at OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate(Int32 value) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Controllers\ExampleController.cs:line 27
+   at lambda_method39(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Infrastructure\Middlewares\LoggingMiddleware.cs:line 23
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\Infrastructure\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-05-30 14:11:24.010 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - 500 null application/json; charset=utf-8 233.8464ms
+2025-05-30 16:58:12.773 +04:00 [INF] User profile is available. Using 'C:\Users\Farhad-PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-30 16:58:13.128 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 16:58:13.298 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 16:58:13.299 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 16:58:13.401 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 16:58:13.401 +04:00 [INF] Hosting environment: Development
+2025-05-30 16:58:13.401 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 16:58:13.555 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 16:58:13.719 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 169.8519ms
+2025-05-30 16:58:13.723 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 16:58:13.723 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 16:58:13.728 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 4.9907ms
+2025-05-30 16:58:13.759 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.5818ms
+2025-05-30 16:58:13.823 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 16:58:13.901 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.8652ms
+2025-05-30 16:59:30.652 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 46
+2025-05-30 16:59:30.675 +04:00 [INF] CORS policy execution successful.
+2025-05-30 16:59:30.832 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/login","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"{\n  \u0022username\u0022: \u0022admin\u0022,\n  \u0022password\u0022: \u0022123\u0022\n}","UserId":null,"Username":null}
+2025-05-30 16:59:30.834 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 16:59:30.857 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(OBAWebAPI.Framework.Domain.Models.Identity.TokenRequestModel) on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 16:59:30.888 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-30 16:59:30.893 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse) in 33.2523ms
+2025-05-30 16:59:30.893 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 16:59:30.893 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 401 null application/json; charset=utf-8 244.4802ms
+2025-05-30 16:59:36.451 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 47
+2025-05-30 16:59:36.452 +04:00 [INF] CORS policy execution successful.
+2025-05-30 16:59:36.454 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/login","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"{\n  \u0022username\u0022: \u0022admin\u0022,\n  \u0022password\u0022: \u00221234\u0022\n}","UserId":null,"Username":null}
+2025-05-30 16:59:36.454 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 16:59:36.455 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(OBAWebAPI.Framework.Domain.Models.Identity.TokenRequestModel) on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 16:59:36.482 +04:00 [INF] Executing OkObjectResult, writing value of type 'OBAWebAPI.Framework.Domain.Models.Identity.TokenResponseModel'.
+2025-05-30 16:59:36.487 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse) in 32.1924ms
+2025-05-30 16:59:36.487 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 16:59:36.487 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 200 null application/json; charset=utf-8 36.2461ms
+2025-05-30 17:00:25.955 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/refresh - application/json 541
+2025-05-30 17:00:25.958 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:00:25.961 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/refresh","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"{\n  \u0022accessToken\u0022: \u0022eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImRkZWI5NWQ5LTI2YzMtNDI3ZS05MTQwLWQ3OWUzNmRiOWU1ZiIsImV4cCI6MTc0ODYxMDg3NiwiaXNzIjoiT0JBQXBwIiwiYXVkIjoiWW91ckFwcFVzZXJzIn0.1tBFZmEd0_unMmxSBII5tkTjg7f7H9Zw8RnKuo0lSCQ\u0022,\n  \u0022refreshToken\u0022: \u0022kwqOK8KAYnoBGESwJLSv1xB/jNJB9eQj4bGh\u002BEiohOUPLw20mZRKdRwAfJtXoJ0nNMWvnHSUfjr9OQLVXqmTyQ==\u0022\n}","UserId":null,"Username":null}
+2025-05-30 17:00:25.961 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Refresh (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:00:25.963 +04:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Refresh(OBAWebAPI.Framework.Domain.Models.Identity.RefreshTokenRequestModel) on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:00:26.013 +04:00 [INF] Executing OkObjectResult, writing value of type 'OBAWebAPI.Framework.Domain.Models.Identity.TokenResponseModel'.
+2025-05-30 17:00:26.013 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Refresh (OBAWebAPI.Framework.ApiResponse) in 50.1176ms
+2025-05-30 17:00:26.013 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Refresh (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:00:26.013 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/refresh - 200 null application/json; charset=utf-8 57.973ms
+2025-05-30 17:04:25.369 +04:00 [INF] User profile is available. Using 'C:\Users\Farhad-PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-30 17:04:25.474 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 17:04:25.576 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 17:04:25.576 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 17:04:25.655 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 17:04:25.656 +04:00 [INF] Hosting environment: Development
+2025-05-30 17:04:25.656 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 17:04:26.471 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 17:04:26.630 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 169.238ms
+2025-05-30 17:04:26.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 17:04:26.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 17:04:26.645 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 6.0684ms
+2025-05-30 17:04:26.676 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.7068ms
+2025-05-30 17:04:26.735 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 17:04:26.809 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.9534ms
+2025-05-30 17:04:41.547 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 48
+2025-05-30 17:04:41.565 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:04:41.680 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/login","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"{\n  \u0022username\u0022: \u0022user\u0022,\n  \u0022password\u0022: \u0022123456\u0022\n}","UserId":null,"Username":null}
+2025-05-30 17:04:41.682 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:04:41.697 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(OBAWebAPI.Framework.Domain.Models.Identity.TokenRequestModel) on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:04:41.725 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-30 17:04:41.730 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse) in 30.6534ms
+2025-05-30 17:04:41.730 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:04:41.731 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 401 null application/json; charset=utf-8 183.768ms
+2025-05-30 17:04:49.910 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 47
+2025-05-30 17:04:49.911 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:04:49.914 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/login","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"{\n  \u0022username\u0022: \u0022user\u0022,\n  \u0022password\u0022: \u002212345\u0022\n}","UserId":null,"Username":null}
+2025-05-30 17:04:49.914 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:04:49.914 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(OBAWebAPI.Framework.Domain.Models.Identity.TokenRequestModel) on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:04:49.938 +04:00 [INF] Executing OkObjectResult, writing value of type 'OBAWebAPI.Framework.Domain.Models.Identity.TokenResponseModel'.
+2025-05-30 17:04:49.942 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse) in 27.3295ms
+2025-05-30 17:04:49.942 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:04:49.942 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 200 null application/json; charset=utf-8 33.0188ms
+2025-05-30 17:05:05.341 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Auth/me - null null
+2025-05-30 17:05:05.378 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Auth/me","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":"2","Username":null}
+2025-05-30 17:05:05.378 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Me (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:05:05.379 +04:00 [INF] Route matched with {action = "Me", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Me() on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:05:05.387 +04:00 [INF] Executing OkObjectResult, writing value of type 'OBAWebAPI.Framework.Domain.DTO.UserDTO'.
+2025-05-30 17:05:05.388 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Me (OBAWebAPI.Framework.ApiResponse) in 9.081ms
+2025-05-30 17:05:05.388 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Me (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:05:05.389 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Auth/me - 200 null application/json; charset=utf-8 48.2165ms
+2025-05-30 17:05:19.004 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/logout - null 0
+2025-05-30 17:05:19.004 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:05:19.007 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/logout","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"","UserId":"2","Username":null}
+2025-05-30 17:05:19.007 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:05:19.008 +04:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:05:19.008 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-30 17:05:19.008 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse) in 0.2792ms
+2025-05-30 17:05:19.008 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:05:19.008 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/logout - 200 null application/json; charset=utf-8 4.7556ms
+2025-05-30 17:05:26.673 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Auth/me - null null
+2025-05-30 17:05:26.675 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Auth/me","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":"2","Username":null}
+2025-05-30 17:05:26.675 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Me (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:05:26.675 +04:00 [INF] Route matched with {action = "Me", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Me() on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:05:26.675 +04:00 [INF] Executing OkObjectResult, writing value of type 'OBAWebAPI.Framework.Domain.DTO.UserDTO'.
+2025-05-30 17:05:26.675 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Me (OBAWebAPI.Framework.ApiResponse) in 0.1892ms
+2025-05-30 17:05:26.676 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Me (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:05:26.676 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Auth/me - 200 null application/json; charset=utf-8 2.5319ms
+2025-05-30 17:06:30.207 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 17:06:30.220 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 13.9703ms
+2025-05-30 17:06:30.226 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 17:06:30.226 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 17:06:30.227 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 1.1857ms
+2025-05-30 17:06:30.243 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.7271ms
+2025-05-30 17:06:30.292 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 17:06:30.297 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.0382ms
+2025-05-30 17:06:37.486 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:06:37.487 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-30 17:06:37.491 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-05-30 17:06:37.492 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 401 0 null 6.5544ms
+2025-05-30 17:06:55.758 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 47
+2025-05-30 17:06:55.759 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:06:55.761 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/login","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"{\n  \u0022username\u0022: \u0022admin\u0022,\n  \u0022password\u0022: \u00221234\u0022\n}","UserId":null,"Username":null}
+2025-05-30 17:06:55.761 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:06:55.762 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(OBAWebAPI.Framework.Domain.Models.Identity.TokenRequestModel) on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:06:55.764 +04:00 [INF] Executing OkObjectResult, writing value of type 'OBAWebAPI.Framework.Domain.Models.Identity.TokenResponseModel'.
+2025-05-30 17:06:55.765 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse) in 2.0577ms
+2025-05-30 17:06:55.765 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Login (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:06:55.765 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 200 null application/json; charset=utf-8 7.1983ms
+2025-05-30 17:07:08.647 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:07:08.648 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:08.648 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:08.654 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:09.400 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 17:07:09.446 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[OBAWebAPI.Framework.Domain.Models.ExampleModel, OBAWebAPI.Framework.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 17:07:09.453 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 798.4878ms
+2025-05-30 17:07:09.453 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:09.459 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 200 null application/json; charset=utf-8 812.4266ms
+2025-05-30 17:07:14.633 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=2 - null null
+2025-05-30 17:07:14.633 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=2","HasValue":true},"Origin":"","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:14.633 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:14.637 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:14.807 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal[]'.
+2025-05-30 17:07:14.810 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 173.1113ms
+2025-05-30 17:07:14.810 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:14.810 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=2 - 200 null application/json; charset=utf-8 177.5922ms
+2025-05-30 17:07:18.733 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - null null
+2025-05-30 17:07:18.734 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetDecreaseGraduate","HasValue":true},"QueryString":{"Value":"?value=0","HasValue":true},"Origin":"","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:18.734 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:18.734 +04:00 [INF] Route matched with {action = "GetDecreaseGraduate", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Decimal[]] GetDecreaseGraduate(Int32) on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:18.841 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse) in 107.0347ms
+2025-05-30 17:07:18.842 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:18.949 +04:00 [ERR] An unhandled error occurred: Attempted to divide by zero.
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at OBAWebAPI.Framework.Service.Services.ExampleService.<>c__DisplayClass4_0.<GetDecreaseGraduate>b__0(Decimal item) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 40
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OBAWebAPI.Framework.Service.Services.ExampleService.GetDecreaseGraduate(Int32 value) in C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.Service\Services\ExampleService.cs:line 40
+   at OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetDecreaseGraduate(Int32 value)
+   at lambda_method47(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.LoggingMiddleware.Invoke(HttpContext context)
+   at OBAWebAPI.Framework.ApiResponse.Infrastructure.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2025-05-30 17:07:18.996 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - 500 null application/json; charset=utf-8 262.6655ms
+2025-05-30 17:07:25.470 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/logout - null 0
+2025-05-30 17:07:25.471 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:07:25.472 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/logout","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:25.472 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:25.473 +04:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:25.473 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-30 17:07:25.474 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse) in 0.8945ms
+2025-05-30 17:07:25.474 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:25.474 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/logout - 200 null application/json; charset=utf-8 4.5344ms
+2025-05-30 17:07:27.117 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/logout - null 0
+2025-05-30 17:07:27.117 +04:00 [INF] CORS policy execution successful.
+2025-05-30 17:07:27.117 +04:00 [INF] {"Method":"POST","Path":{"Value":"/api/Auth/logout","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"https://localhost:7278","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:27.117 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:27.117 +04:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller OBAWebAPI.Framework.ApiResponse.Controllers.AuthController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:27.118 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-30 17:07:27.118 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse) in 0.1616ms
+2025-05-30 17:07:27.118 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.AuthController.Logout (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:27.118 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/logout - 200 null application/json; charset=utf-8 1.2168ms
+2025-05-30 17:07:31.022 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:07:31.022 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:31.022 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:31.022 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:31.036 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 17:07:31.038 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[OBAWebAPI.Framework.Domain.Models.ExampleModel, OBAWebAPI.Framework.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 17:07:31.038 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 15.2881ms
+2025-05-30 17:07:31.038 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:31.038 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 200 null application/json; charset=utf-8 16.4707ms
+2025-05-30 17:07:33.053 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:07:33.054 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:33.054 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:33.054 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:33.101 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 17:07:33.102 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[OBAWebAPI.Framework.Domain.Models.ExampleModel, OBAWebAPI.Framework.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 17:07:33.102 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 47.8981ms
+2025-05-30 17:07:33.102 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:33.102 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 200 null application/json; charset=utf-8 49.0094ms
+2025-05-30 17:07:33.750 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:07:33.751 +04:00 [INF] {"Method":"GET","Path":{"Value":"/api/Example/GetData","HasValue":true},"QueryString":{"Value":"","HasValue":false},"Origin":"","Body":"","UserId":"1","Username":null}
+2025-05-30 17:07:33.751 +04:00 [INF] Executing endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:33.751 +04:00 [INF] Route matched with {action = "GetData", controller = "Example"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[OBAWebAPI.Framework.Domain.Models.ExampleModel]] GetData() on controller OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController (OBAWebAPI.Framework.ApiResponse).
+2025-05-30 17:07:33.756 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExampleTable] AS [e]
+2025-05-30 17:07:33.758 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[OBAWebAPI.Framework.Domain.Models.ExampleModel, OBAWebAPI.Framework.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 17:07:33.759 +04:00 [INF] Executed action OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse) in 7.6754ms
+2025-05-30 17:07:33.759 +04:00 [INF] Executed endpoint 'OBAWebAPI.Framework.ApiResponse.Controllers.ExampleController.GetData (OBAWebAPI.Framework.ApiResponse)'
+2025-05-30 17:07:33.759 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 200 null application/json; charset=utf-8 9.7688ms
+2025-05-30 17:07:39.382 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:07:39.382 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-30 17:07:39.383 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-05-30 17:07:39.383 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 401 0 null 0.7787ms
+2025-05-30 17:07:44.414 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - null null
+2025-05-30 17:07:44.415 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-30 17:07:44.415 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-05-30 17:07:44.416 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetDecreaseGraduate?value=0 - 401 0 null 1.4096ms
+2025-05-30 17:14:22.665 +04:00 [INF] User profile is available. Using 'C:\Users\Farhad-PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-30 17:14:22.768 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-05-30 17:14:22.872 +04:00 [INF] Now listening on: https://localhost:7278
+2025-05-30 17:14:22.873 +04:00 [INF] Now listening on: http://localhost:5206
+2025-05-30 17:14:22.949 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 17:14:22.950 +04:00 [INF] Hosting environment: Development
+2025-05-30 17:14:22.950 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework\OBAWebAPI.Framework.ApiResponse
+2025-05-30 17:14:23.640 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-05-30 17:14:23.797 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 162.903ms
+2025-05-30 17:14:23.806 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-05-30 17:14:23.806 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-30 17:14:23.817 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 11.5226ms
+2025-05-30 17:14:23.849 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.4388ms
+2025-05-30 17:14:23.893 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-05-30 17:14:23.970 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.5004ms
+2025-05-30 17:14:51.674 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Example/GetData - null null
+2025-05-30 17:14:51.778 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-30 17:14:51.781 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-05-30 17:14:51.782 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Example/GetData - 401 0 null 108.1923ms

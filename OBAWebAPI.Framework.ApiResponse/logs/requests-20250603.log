@@ -1,0 +1,15 @@
+2025-06-03 14:08:49.493 +04:00 [INF] User profile is available. Using 'C:\Users\Farhad-PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-03 14:08:49.685 +04:00 [WRN] The WebRootPath was not found: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework - Copy\OBAWebAPI.Framework.ApiResponse\wwwroot. Static files may be unavailable.
+2025-06-03 14:08:49.821 +04:00 [INF] Now listening on: https://localhost:7278
+2025-06-03 14:08:49.821 +04:00 [INF] Now listening on: http://localhost:5206
+2025-06-03 14:08:49.926 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 14:08:49.928 +04:00 [INF] Hosting environment: Development
+2025-06-03 14:08:49.928 +04:00 [INF] Content root path: C:\Users\Farhad-PC\Desktop\OBAWebAPI.Framework - Copy\OBAWebAPI.Framework.ApiResponse
+2025-06-03 14:08:51.017 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2025-06-03 14:08:51.220 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 211.9417ms
+2025-06-03 14:08:51.267 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2025-06-03 14:08:51.267 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-03 14:08:51.278 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 11.3727ms
+2025-06-03 14:08:51.323 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.3808ms
+2025-06-03 14:08:51.484 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2025-06-03 14:08:51.561 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.4543ms

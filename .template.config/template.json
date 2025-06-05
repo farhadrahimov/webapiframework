@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "OBA MMC",
+  "classifications": [ "webapi", "framework", "internal" ],
+  "identity": "OBAFramework.Template.01",
+  "name": "OBA Internal Framework",
+  "shortName": "obafw",
+  "sourceName": "OBAFramework",
+  "preferNameDirectory": true
+}
