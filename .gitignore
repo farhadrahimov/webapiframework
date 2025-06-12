@@ -1,0 +1,86 @@
+## .NET Core / .NET 8
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+.history/
+
+# Rider settings
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+
+# Project lock and cache files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET specific
+wwwroot/static/
+wwwroot/node_modules/
+wwwroot/dist/
+node_modules/
+dist/
+bower_components/
+
+# EF Core Migrations snapshots
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+# Secrets
+secrets.json
+appsettings.*.json
+!appsettings.Development.json # оставляем только dev-конфиг (по желанию)
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish artifacts
+*.publishsettings
+*.publish.xml
+*.deploy.cmd
+*.deploy-readme.txt
+*.pubxml
+
+# JetBrains Rider tool-specific
+.idea/
+
+# ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+*.tlog
+
+# DotNet Template Engine
+.template.config/
+
+# Global JSON SDK resolver
+global.json
+
+# Others
+*.vspscc
+*.vssscc
+.vs/

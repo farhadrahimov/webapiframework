@@ -35,16 +35,16 @@ Edit
 dotnet new obafw -n MyNewService
 This will:
 
-Rename all "OBAWebAPI.Framework" occurrences to MyNewService
+Rename all "OBAFramework" occurrences to MyNewService
 
 Create a new directory with the new service name
 
 📚 Project Structure
 Project	Description
-OBAWebAPI.Framework.Domain	Domain models and shared logic
-OBAWebAPI.Framework.Repository	Repositories (EF Core & Dapper)
-OBAWebAPI.Framework.Service	Business services
-OBAWebAPI.Framework.ApiResponse	API layer, auth system, Swagger, etc.
+OBAFramework.Domain	Domain models and shared logic
+OBAFramework.Repository	Repositories (EF Core & Dapper)
+OBAFramework.Service	Business services
+OBAFramework.ApiResponse	API layer, auth system, Swagger, etc.
 
 🧪 Example Endpoints
 GET /api/example/GetDecreaseGraduate — Fully wired CQRS example
